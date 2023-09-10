@@ -1,29 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" herf="styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
     <title>Jerikka's Portfolio</title>
-</head>
+  </head>
 
-<body>
-    <div class="container"></div>
-    <div class="navbar">
-        <navbar id="navbar">
+  <body>
+    <div class="wrapper">
+      <header>
+          <navbar id="navbar" class="navbar">
             <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#work">Work</a></li>
-                <li><a href="#contact">Contact</a></li>
+              <li class="right"><a href="#welcome-station">About Me</a></li>
+              <li class="right"><a href="#work">Work</a></li>
+              <li class="right"><a href="#contact">Contact</a></li>
             </ul>
-        </navbar>
-    </div>
-    <section id="welcome-station">
-        <div class="welcome-text">
-            <h1>Hi, I'm <span class="name">Jerikka Harris</span></h1>
-            <h3><span> And I am a Software Engineer!</span></h3>
+          </navbar>
+      </header>
+      <div class="container"></div>
+      <!-- Me -->
+      <section id="me">
+        <div>
+            <img src="images/img/profilepic.jpg" alt="Jerikka Harris" class="profile-pic" />
         </div>
-    </section>
-</body>
+      </section>
+      <br />
+      <!-- About Me -->
+      <section id="welcome-station">
+        <div class="welcome-text">
+          <h1>Hi, I'm <span class="name">Jerikka Harris</span></h1>
+          <h3><span> And I am a Software Engineer!</span></h3>
+        </div>
+      </section>
+      <!-- Work -->
+      <!-- Contact -->
+    </div>
+  </body>
 </html>
