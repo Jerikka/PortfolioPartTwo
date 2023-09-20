@@ -45,7 +45,7 @@ body {
     list-style:none; 
 }
 
-img {
+.profile-pic {
     width: 107px;
     border-radius: 50%;
     position: absolute;
