@@ -45,13 +45,74 @@ body {
     list-style:none; 
 }
 
-.profile-pic {
-    width: 107px;
-    border-radius: 50%;
-    position: absolute;
-    top: 20%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    border: 2px solid grey;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+#me {
+    margin: 20px;
+}
+
+.intro { 
+    margin-left: 46px;
+}
+
+#welcome-station {
+    margin-top: 45px;
+}
+
+#welcome-station h1 {
+    margin: 5px;
+}
+
+#welcome-station p {
+    margin: 5px; 
+}
+
+#projects h1 {
+    margin: 5px;
+}
+
+.projects-container {
+    /* make a card and let the cards wrap */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 10px;
+    margin: 20px;
+    border: 1px solid #00A8A8;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    justify-content: center;
+    width: 45%;
+    background: transparent;
+}
+
+.project-title h3 {
+    margin: 5px;
+}
+
+.links {
+    width: 450px;
+}
+
+#calculator {
+    height: 350px;
+}
+
+/* create a media query that makes the cards wrap */
+@media (max-width: 500px) {
+    .projects-container {
+        flex-direction: column;
+        width: 80%;
+        align-content: center;
+        padding: 10px;
+        margin: 15px;
+    }
+
+    .navbar {
+        flex-direction: column;
+    }
+
+    .links {
+        width: 100%;
+    }
 }
